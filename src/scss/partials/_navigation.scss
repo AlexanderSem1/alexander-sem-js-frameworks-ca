@@ -1,0 +1,35 @@
+.navbar{
+    border-radius: 0;
+    padding: 0; 
+    font-size: 120%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    &-nav{
+        text-align: center;
+    }
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin: 10% 0; 
+    // padding: 10% 0;
+}
+
+.login{
+    margin-top: 12%; 
+}
+
+.navbar-right{
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+    top: 0; 
+    & a{
+        color: white;
+    }
+}

@@ -1,0 +1,31 @@
+.display-none{
+    display: none;
+}
+
+.display-block{
+    display: block;
+}
+
+.introtext{
+    margin-left: 10px;
+}
+
+.accordion{
+    background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+  width: 98%;
+  &__rotate{
+      transform: rotate(90deg);
+  }
+  &__icon{
+        margin-left: auto;
+        transition: transform 0.6s ease;
+  }
+}
