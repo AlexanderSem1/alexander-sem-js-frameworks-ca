@@ -43,7 +43,8 @@ export default function Login(props) {
     return (
         <div className=" [ container login ] ">
             <div className=" [ row ] ">
-                <div className=" [ col-sm-12 ] ">
+                <div className="[ col-sm-2 ]"></div>
+                <div className=" [ col-sm-8 ] ">
                     <h1>Login</h1>
                     <form onSubmit={handleSubmit}>
                         <p>Enter a username</p>

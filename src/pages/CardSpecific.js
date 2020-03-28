@@ -26,7 +26,7 @@ export default function CardSpecific(props) {
             <h2>Magic Card Specific</h2>
             {
                 (cardResult !== undefined) ?
-                    <div >
+                    <div className="[ card ]">
                         <h4>{cardResult.name}</h4>
                         <img src={cardResult.imageUrl} className="[ img-fluid ]" alt={cardResult.name}></img>
                         <p><span>About: </span>{cardResult.text}</p>
