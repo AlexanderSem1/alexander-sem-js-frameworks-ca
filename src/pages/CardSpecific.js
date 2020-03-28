@@ -21,7 +21,8 @@ export default function CardSpecific(props) {
 
     return (
         <div className="[ row container-fluid ]">
-            <div className="[ col-sm-12 ]">
+            <div className="[ col-sm-3 ]"></div>
+            <div className="[ col-sm-6 ]">
             <h2>Magic Card Specific</h2>
             {
                 (cardResult !== undefined) ?

@@ -33,9 +33,9 @@ const MagicCard = () => {
     }
 
     return (
-        <div className="[ row container-fluid ]">
-            <div className="[ col-sm-12 ]">
-                <h1>Welcome to Rick and Morty's fan page.</h1>
+        <div className="[ row container-fluid ] [ mainpage ]">
+            <div className="[ col-sm-12 ] [ mainpage__container ]" >
+                <h1 className="[ mainpage__container--header ]">Welcome to the amazing world of Magic Cards.</h1>
                 <form>
                     <p>Enter a search phrase</p>
                     <input type='text'
@@ -83,12 +83,3 @@ const MagicCard = () => {
 
 export default MagicCard; 
 
-// (value.imageUrl[index] !== undefined)
-//     ?    img = magicCardApiResult.splice(index, 1)
-//     :  img = value.imageUrl :
-
-
-// let img;
-// value.imageUrl !== undefined
-//     ? img = value.imageUrl
-//     : img = 'https://via.placeholder.com/223x310'

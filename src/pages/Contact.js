@@ -42,6 +42,7 @@ export default function Contact() {
 
     return (
         <div className="[ row container-fluid ]">
+            <div className="[ col-sm-3 ]"></div>
             <div className="[ col-sm-6 ]">
                 <h1>Contact Form</h1>
                 <form onSubmit={handleSubmit}>

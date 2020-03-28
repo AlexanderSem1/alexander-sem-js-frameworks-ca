@@ -20,20 +20,20 @@ export default function App(props) {
     setIsLoggedIn(false)
   }
 
-  return (isLoggedIn) ?
-    (
-      <div className="[ row ]">
-        <div className="[ col-sm-12 ]">
-          <Navigation />
-          <ul className="nav navbar-nav navbar-right">
-            <li><a href="#home" onClick={logout}><span className="glyphicon glyphicon-log-in"></span> Logout</a></li>
-          </ul>
-          {props.children}
-        </div>
-        <Footer />
-      </div> 
-    ) :
-    (
-      <Login updateLoginStatus={updateLogin} />
-    );
+return (isLoggedIn) ?
+  (
+    <div className="[ row ]">
+      <div className="[ col-sm-12 ]">
+        <Navigation />
+        <ul className="nav navbar-nav navbar-right">
+          <li><a href="#home" onClick={logout}><span className="[ glyphicon glyphicon-log-in ]"></span> Logout</a></li>
+        </ul>
+        {props.children}
+      </div>
+      <Footer />
+    </div>
+  ) :
+  (
+    <Login updateLoginStatus={updateLogin} />
+  );
 }

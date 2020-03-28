@@ -8,21 +8,30 @@
 
 .introtext{
     margin-left: 10px;
+    &__accoridon{
+        border: 2px solid grey;
+    }
 }
 
 .accordion{
+    &__title{
+        background-color: inherit;
+    }
     background-color: #eee;
   color: #444;
   cursor: pointer;
   padding: 18px;
   display: flex;
   align-items: center;
-  border: none;
-  outline: none;
+  margin:15px 0;
   transition: background-color 0.6s ease;
   width: 98%;
   &__rotate{
       transform: rotate(90deg);
+      background-color: inherit;
+      color: $mc-black;
+      font-size: 140%;
+      margin-right: 30px;
   }
   &__icon{
         margin-left: auto;

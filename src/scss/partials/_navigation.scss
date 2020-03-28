@@ -1,10 +1,14 @@
 .navbar{
+    & a{
+        color: $mc-snowwhite;
+         border: 2px solid $mc-black;
+    }
     border-radius: 0;
-    padding: 0; 
-    font-size: 120%;
-    color: white;
-    background-color: black;
-    text-align: center;
+    padding: 10px; 
+    font-size: 130%;
+    color: $mc-snowwhite;
+    background-color: $mc-black;
+    border-bottom: none;
     &-nav{
         text-align: center;
     }
@@ -12,12 +16,11 @@
 
 .footer{
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: $mc-black;
+    color: $mc-snowwhite;
     text-align: center;
     padding: 30px 0;
-    margin: 10% 0; 
-    // padding: 10% 0;
+    margin: 5% 0; 
 }
 
 .login{
@@ -27,9 +30,25 @@
 .navbar-right{
     margin-right: 20px;
     position: absolute;
+    font-size: 130%;
     right: 0;
     top: 0; 
     & a{
-        color: white;
+        color: $mc-snowwhite;
+    }
+    & a:hover{
+        color: $mc-black;
+    }
+}
+
+.navbar-inverse .navbar-nav li a, .navbar-nav li a, .logout{
+    color: $mc-snowwhite;
+    &:hover{
+        transform: scale(1.1);
+        color: $mc-snowwhite; 
+        background-color: $mc-black;
+        
+        border-radius: 3px;
+        
     }
 }
