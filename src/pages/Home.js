@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
 import axios from 'axios';
-import { MAGIC_CARD_API } from '../constants/constants'; 
-import Darkmode from 'darkmode-js';
+import { MAGIC_CARD_API } from '../constants/constants';
 
-import MagicCardSpec from '../components/magicCardSpec'; 
+import MagicCardSpec from '../components/magicCardSpec';
 
 const MagicCard = () => {
-    const [magicCardApiResult, setMagicCardApiResult] = useState(undefined); 
+    const [magicCardApiResult, setMagicCardApiResult] = useState(undefined);
     const [filteredResults, setFilteredResults] = useState([]);
     const [isResultsFiltered, setIsResultsFiltered] = useState(false);
     const [serachPharse, setSearchPharase] = useState('');
@@ -22,7 +21,7 @@ const MagicCard = () => {
                     }
                 }
                 setMagicCardApiResult(result.data.cards)
-        })
+            })
     }, [])
 
     const handleFiltering = (input) => {
@@ -38,7 +37,7 @@ const MagicCard = () => {
         <div className="[ row container-fluid ] [ mainpage ]">
             <div className="[ col-sm-2 ]"></div>
             <div className="[ col-sm-8 ] [ mainpage__container ]" >
-                <h1 className="[ mainpage__container--header ]">Welcome to the amazing world of <br/>Magic Game Cards.<br /><p className="[ fa fa-gamepad ]"> </p></h1>
+                <h1 className="[ mainpage__container--header ]">Welcome to the amazing world of <br />Magic Game Cards.<br /><p className="[ fa fa-gamepad ]"> </p></h1>
                 <form>
                     <p>Enter a search phrase</p>
                     <input type='text'
@@ -84,5 +83,5 @@ const MagicCard = () => {
     );
 }
 
-export default MagicCard; 
+export default MagicCard;
 

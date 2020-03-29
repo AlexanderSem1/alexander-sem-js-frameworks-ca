@@ -7,7 +7,7 @@ const MagicCardSpec = ({ name, imageUrl, id }) => {
             <div className=" [ card ] ">
                 <h4 className=" [ card__heading ]">{name}</h4>
                 <img src={imageUrl} alt="Magic Card game"></img>
-                <Link to={`/card-specific/${id}`}className="[ btn btn-primary ]">View More</Link>
+                <Link to={`/card-specific/${id}`} className="[ btn btn-primary ]">View More</Link>
             </div>
         </div>
     )

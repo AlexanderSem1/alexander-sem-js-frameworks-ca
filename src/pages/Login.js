@@ -39,7 +39,6 @@ export default function Login(props) {
         console.log('You have provided correct username and password.')
     }
 
-
     return (
         <div className="[ container ] [ login ]">
             <div className=" [ row ] ">
@@ -68,9 +67,7 @@ export default function Login(props) {
                     </form>
                     <p className="[ login__container--copyright ]">&copy;2020. Property of Alexander Sem Borrmann<br />All rights Reserved</p>
                 </div>
-               
             </div>
-           
         </div>
     )
 }
