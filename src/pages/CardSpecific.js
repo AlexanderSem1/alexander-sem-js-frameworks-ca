@@ -35,7 +35,7 @@ export default function CardSpecific(props) {
                     </div> :
                     <div>No detailed view available</div>
             }
-            <Link className="btn btn-dark" to="/">Go back</Link>
+            <Link className="[ btn btn-dark ]" to="/">Go back</Link>
             </div>
         </div>
     ); 
