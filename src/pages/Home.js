@@ -36,7 +36,7 @@ const MagicCard = () => {
         <div className="[ row container-fluid ] [ mainpage ]">
             <div className="[ col-sm-2 ]"></div>
             <div className="[ col-sm-8 ] [ mainpage__container ]" >
-                <h1 className="[ mainpage__container--header ]">Welcome to the amazing world of Magic Cards.</h1>
+                <h1 className="[ mainpage__container--header ]">Welcome to the amazing world of <br/>Magic Game Cards.<br /><h2 className="[ fa fa-gamepad ]"> </h2></h1>
                 <form>
                     <p>Enter a search phrase</p>
                     <input type='text'

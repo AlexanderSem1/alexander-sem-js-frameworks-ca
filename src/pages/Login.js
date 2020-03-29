@@ -41,11 +41,12 @@ export default function Login(props) {
 
 
     return (
-        <div className=" [ container login ] ">
+        <div className="[ container ] [ login ]">
             <div className=" [ row ] ">
                 <div className="[ col-sm-2 ]"></div>
-                <div className=" [ col-sm-8 ] ">
+                <div className=" [ col-sm-9 ] [ login__container ]">
                     <h1>Login</h1>
+                    <p className="[ login__container--text ]">This is private property - you must have retained Username & Password from Master - Please contact admin if any issues.</p>
                     <form onSubmit={handleSubmit}>
                         <p>Enter a username</p>
                         <input type='text'
@@ -65,8 +66,11 @@ export default function Login(props) {
                         <br />
                         <input type="submit" disabled={usernameError || passworderror} className=" [ btn ] " />
                     </form>
+                    <p className="[ login__container--copyright ]">&copy;2020. Property of Alexander Sem Borrmann<br />All rights Reserved</p>
                 </div>
+               
             </div>
+           
         </div>
     )
 }

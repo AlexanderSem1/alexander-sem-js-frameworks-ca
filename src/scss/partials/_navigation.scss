@@ -1,23 +1,41 @@
 .navbar{
+    &-brand{
+        font-size: 110%;
+    }
     & a{
         color: $mc-snowwhite;
-         border: 2px solid $mc-black;
+        padding:10px;
     }
     border-radius: 0;
     padding: 10px; 
     font-size: 130%;
     color: $mc-snowwhite;
-    background-color: $mc-black;
     border-bottom: none;
     &-nav{
         text-align: center;
     }
 }
 
+
+
+.navbar-nav li a, .logout{
+    color: $mc-snowwhite;
+    &:hover{
+        transform: scale(1.1);
+        color: $mc-snowwhite; 
+        background-color: $mc-black;
+        border-radius: 3px;
+    }
+}
+
+.active{
+    background-color: none;
+}
+
 .footer{
     width: 100%;
     background-color: $mc-black;
-    color: $mc-snowwhite;
+    color: $mc-corona-grey; 
     text-align: center;
     padding: 30px 0;
     margin: 5% 0; 
@@ -25,6 +43,18 @@
 
 .login{
     margin-top: 12%; 
+    &__container{
+        &--text{
+            margin-bottom: 30px;
+            font-size: 90%;
+        }
+        &--copyright{
+            color: $mc-corona-grey;
+            text-align: center;
+            margin-top: 20%;
+            font-size: 80%;
+        }
+    }
 }
 
 .navbar-right{
@@ -36,18 +66,8 @@
     & a{
         color: $mc-snowwhite;
     }
-    & a:hover{
-        color: $mc-black;
-    }
+    // & a:hover{
+    //     color: $mc-black;
+    // }
 }
 
-.navbar-inverse .navbar-nav li a, .navbar-nav li a, .logout{
-    color: $mc-snowwhite;
-    &:hover{
-        transform: scale(1.1);
-        color: $mc-snowwhite; 
-        background-color: $mc-black;
-        border-radius: 3px;
-        
-    }
-}

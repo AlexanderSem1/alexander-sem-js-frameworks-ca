@@ -6,7 +6,7 @@ const Navigation = () => {
 
     return (
         <nav className="[ navbar ]">
-            <ul className="[ nav navbar-nav ]">
+            <ul className="[ navbar-nav ]">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
@@ -16,3 +16,5 @@ const Navigation = () => {
 };
 
 export default Navigation; 
+
+  
