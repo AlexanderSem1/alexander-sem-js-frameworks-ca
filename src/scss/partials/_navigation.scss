@@ -1,13 +1,10 @@
 .navbar{
-    &-brand{
-        font-size: 110%;
-    }
     & a{
         color: $mc-snowwhite;
-        padding:10px;
+        padding:0 10px;
     }
     border-radius: 0;
-    padding: 10px; 
+    padding: 20px; 
     font-size: 130%;
     color: $mc-snowwhite;
     border-bottom: none;
@@ -16,20 +13,15 @@
     }
 }
 
-
-
-.navbar-nav li a, .logout{
-    color: $mc-snowwhite;
+.navbar-nav a, .logout{
     &:hover{
-        transform: scale(1.1);
-        color: $mc-snowwhite; 
-        background-color: $mc-black;
         border-radius: 3px;
     }
 }
 
-.active{
-    background-color: none;
+
+.glyphicon{
+    padding: 2px;
 }
 
 .footer{
@@ -60,8 +52,9 @@
 .navbar-right{
     margin-right: 20px;
     position: absolute;
-    font-size: 130%;
+    font-size: 120%;
     right: 0;
+    padding: 10px;
     top: 0; 
     & a{
         color: $mc-snowwhite;
