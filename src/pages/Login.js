@@ -45,7 +45,7 @@ export default function Login(props) {
                 <div className="[ col-sm-2 ]"></div>
                 <div className=" [ col-sm-9 ] [ login__container ]">
                     <h1>Login</h1>
-                    <p className="[ login__container--text ]">This is private property - you must have retained Username & Password from Master - Please contact admin if any issues.</p>
+                    <p className="[ login__container--text ]">To login please use Username: alexander Password: alex123</p>
                     <form onSubmit={handleSubmit}>
                         <p>Enter a username</p>
                         <input type='text'
