@@ -10,7 +10,7 @@
     "bootstrap3": "^3.3.5",
     "darkmode-js": "^1.5.5",
     "font-awesome": "^4.7.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
